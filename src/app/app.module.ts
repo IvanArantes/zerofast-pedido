@@ -7,6 +7,7 @@ import { SharedModule } from './shared/shared.module';
 import { PedidoModule } from './pedido/pedido.module';
 import { AppRoutingModule } from './app-routing.module';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { CoreModule } from './core/core.module';
 
 
 
@@ -16,6 +17,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
   ],
   imports: [
     PedidoModule,
+    CoreModule,
     BrowserModule,
     SharedModule,
     AppRoutingModule,
